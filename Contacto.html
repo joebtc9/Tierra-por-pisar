@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subecerros | Contactanos</title>
+    <title>Tierra por pisar| Contactanos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
@@ -14,7 +14,7 @@
     <!--NavBar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Sube cerros</a>
+            <a class="navbar-brand" href="#">Tierra por pisar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
                         <a class="nav-link" href="./paquetes.html">Paquetes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Carrito</a>
+                        <a class="nav-link" href="./carrito.html">Carrito</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./Contacto.html">Contactanos</a>
@@ -37,9 +37,42 @@
             </div>
         </div>
     </nav>
+    <br />
+    <!--Informacion de contacto-->
+    <div class="container">
+    <form>
+         <select class="form-select" aria-label="Default select example">
+            <option selected>Elige el paquete</option>
+            <option value="1">Senderismo</option>
+            <option value="2">Pajarear</option>
+            <option value="3">Alta montaña</option>
+            <option value="4">Escalar</option>
+        </select>
+        <br/>
+        <div class="input-group input-group-sm mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Nombre</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm" placeholder="Nombre completo">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Número de telefono</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm" placeholder="10 digitos">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Correo electrónico</span>
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm" placeholder="correo@dominio.com">
+        </div>
+       
+        <button type="submit">Enviar <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+    <span class="visually-hidden">New alerts</span>
+  </span></button>
+    </form>
+    </div>
+    
 
-
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 

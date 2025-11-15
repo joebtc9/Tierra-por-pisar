@@ -1,0 +1,57 @@
+html{
+    --bgcolor: #B77466;
+    --hgcolor: #FFE1AF;
+    --primaryColor: #E2B59A;
+    --secondaryColor: rgb(149, 124, 98);
+
+}
+div.carouselExampleCaptions{
+    background-color: var(--secondaryColor);
+}
+div.alert{
+     text-align: center; 
+    justify-content: center;
+}
+
+
+div.cardProduct{
+    width: 250px;
+    border-radius: 10px;
+    margin: 25px 0px 25px 0px;
+    text-align: center;
+    align-content: center;
+    height: 250px;
+}
+div.productRow{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+
+div.cardProducts{
+    width: 400px;
+    border-radius: 10px;
+    margin: 25px 0px 25px 0px;
+    text-align: center;
+    align-content: center;
+    height: 500px;
+}
+div.productRows{
+    display: flex;
+    place-items: center;
+    flex-wrap:wrap;
+    gap: 300px;
+    align-content: center; 
+    justify-content: center;
+}
+
+
+h1,h3{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center; 
+}
